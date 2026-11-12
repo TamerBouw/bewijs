@@ -1,0 +1,15 @@
+{
+  "formulier": "contact",
+  "pagina": "https://bureauvonk.example/contact",
+  "ingezonden_op": "2026-10-31T09:17:26+01:00",
+  "velden": {
+    "naam": "Ilse",
+    "bedrijf": "Bakkerij Korrel",
+    "email": "ilse@bakkerijkorrel.example",
+    "telefoon": "06-00000206",
+    "website": "bakkerijkorrel.example",
+    "maandbudget": "€500 - €1.000",
+    "interesse": [],
+    "bericht": "Ik krijg Daan deze week niet te pakken. Hoe zit het precies met de opzegtermijn als we per 1 december willen stoppen? We zijn al klant sinds juni."
+  }
+}

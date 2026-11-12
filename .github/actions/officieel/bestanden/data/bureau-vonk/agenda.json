@@ -1,0 +1,14 @@
+[
+  { "id": "A01", "datum": "2026-11-02", "start": "09:00", "eind": "09:30", "titel": "Weekstart", "deelnemers": ["T01", "T02", "T03", "T04", "T05", "T06", "T07"], "klant_id": null, "lead_id": null, "locatie": "kantoor" },
+  { "id": "A02", "datum": "2026-11-02", "start": "11:00", "eind": "11:30", "titel": "Belafspraak Snuffel Diervoeding", "deelnemers": ["T02"], "klant_id": null, "lead_id": "L006", "locatie": "telefoon" },
+  { "id": "A03", "datum": "2026-11-02", "start": "13:00", "eind": "14:00", "titel": "Creative review collectie Getij", "deelnemers": ["T03", "T04", "T05"], "klant_id": "K04", "lead_id": null, "locatie": "kantoor" },
+  { "id": "A04", "datum": "2026-11-02", "start": "15:00", "eind": "15:30", "titel": "Evaluatie dagstart-agent", "deelnemers": ["T01", "T06"], "klant_id": null, "lead_id": null, "locatie": "kantoor" },
+  { "id": "A05", "datum": "2026-11-03", "start": "10:00", "eind": "11:30", "titel": "Strategiesessie Mout", "deelnemers": ["T01", "T03", "T05"], "klant_id": "K03", "lead_id": null, "locatie": "online" },
+  { "id": "A06", "datum": "2026-11-03", "start": "14:00", "eind": "15:00", "titel": "Evaluatiegesprek Bakkerij Korrel", "deelnemers": ["T01", "T02"], "klant_id": "K06", "lead_id": null, "locatie": "bij de klant" },
+  { "id": "A07", "datum": "2026-11-04", "start": "10:00", "eind": "10:45", "titel": "Voorstel bespreken met Fietsplaats Spaak", "deelnemers": ["T01", "T02"], "klant_id": null, "lead_id": "L007", "locatie": "online" },
+  { "id": "A08", "datum": "2026-11-04", "start": "14:00", "eind": "14:30", "titel": "Overleg leadkwaliteit TechNest", "deelnemers": ["T01", "T03"], "klant_id": "K05", "lead_id": null, "locatie": "online" },
+  { "id": "A09", "datum": "2026-11-05", "start": "09:30", "eind": "10:00", "titel": "Maandcall Groenwerk", "deelnemers": ["T02", "T03"], "klant_id": "K01", "lead_id": null, "locatie": "online" },
+  { "id": "A10", "datum": "2026-11-05", "start": "13:00", "eind": "17:00", "titel": "Testdag", "deelnemers": ["T03", "T04", "T05"], "klant_id": null, "lead_id": null, "locatie": "kantoor" },
+  { "id": "A11", "datum": "2026-11-06", "start": "10:00", "eind": "11:00", "titel": "Terugkoppeling scan Wasserette Bubbel", "deelnemers": ["T01", "T06"], "klant_id": null, "lead_id": "L002", "locatie": "bij de klant" },
+  { "id": "A12", "datum": "2026-11-06", "start": "15:00", "eind": "15:30", "titel": "Weekafsluiting en planning", "deelnemers": ["T01", "T02", "T03", "T04", "T05", "T06", "T07"], "klant_id": null, "lead_id": null, "locatie": "kantoor" }
+]

@@ -1,0 +1,6 @@
+{"id":"E01","invoer":"Hoe laat zijn jullie zondag open?","verwacht":{"actie":"beantwoorden","moet_bevatten":["07.00","22.00"]}}
+{"id":"E02","invoer":"What is the price per kilo for wash and fold?","verwacht":{"actie":"beantwoorden","taal":"en","moet_bevatten":["2,95"]}}
+{"id":"E03","invoer":"Kan ik een dekbed wassen in de grote machine?","verwacht":{"actie":"beantwoorden"}}
+{"id":"E04","invoer":"Is er nu een droger vrij in Centrum?","verwacht":{"actie":"beantwoorden","bron":"machinestatus"}}
+{"id":"E05","invoer":"Is er een machine vrij in Zuid?","verwacht":{"actie":"beantwoorden","moet_bevatten":["geen online status"]}}
+{"id":"E03","invoer":"Kan ik een dekbed wassen in de grote machine?","verwacht":{"actie":"beantwoorden"}}

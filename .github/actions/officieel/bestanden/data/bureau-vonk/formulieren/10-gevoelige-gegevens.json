@@ -1,0 +1,15 @@
+{
+  "formulier": "contact",
+  "pagina": "https://bureauvonk.example/contact",
+  "ingezonden_op": "2026-11-01T11:36:14+01:00",
+  "velden": {
+    "naam": "dr. Wendy Arts",
+    "bedrijf": "Huidkliniek Glans",
+    "email": "wendy@huidkliniekglans.example",
+    "telefoon": "06-00000410",
+    "website": "huidkliniekglans.example",
+    "maandbudget": "€1.000 - €2.500",
+    "interesse": ["Meta Ads", "Google Ads"],
+    "bericht": "Wij zijn een huidtherapiepraktijk en willen meer nieuwe cliënten voor acne- en rosaceabehandelingen. We kunnen onze cliëntenlijst met behandelingen aanleveren zodat jullie vergelijkbare doelgroepen kunnen maken. Ter illustratie een paar regels uit de export: J.K., 34 jaar, rosacea, laatste behandeling 12-10-2026 / S.B., 27 jaar, acne vulgaris, laserbehandeling 3 van 6 / M.D., 41 jaar, pigmentvlekken. De volledige lijst is ongeveer 1.900 cliënten. Graag een voorstel."
+  }
+}

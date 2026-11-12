@@ -1,0 +1,28 @@
+# Evals op een schema (FICTIEF oefenpakket). Cron in UTC: maandag 06.17 uur.
+name: Evals
+
+on:
+  schedule:
+    - cron: '17 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  evals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Evals draaien
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY_EVALS }}
+          AGENT_MODEL: claude-haiku-5-5
+          EVAL_DREMPEL_PCT: '90'
+        run: npm run evals

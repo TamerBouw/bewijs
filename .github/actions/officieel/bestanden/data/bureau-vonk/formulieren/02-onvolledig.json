@@ -1,0 +1,15 @@
+{
+  "formulier": "contact",
+  "pagina": "https://bureauvonk.example/contact",
+  "ingezonden_op": "2026-11-02T00:12:47+01:00",
+  "velden": {
+    "naam": "Bram",
+    "bedrijf": "",
+    "email": "bram.ebikeservice@post.example",
+    "telefoon": "",
+    "website": "",
+    "maandbudget": "Weet ik nog niet",
+    "interesse": [],
+    "bericht": "We repareren e-bikes aan huis in de regio en willen meer afspraken. Kunnen jullie daarbij helpen?"
+  }
+}

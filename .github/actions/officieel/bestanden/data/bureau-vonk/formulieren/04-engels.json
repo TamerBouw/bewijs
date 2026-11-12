@@ -1,0 +1,15 @@
+{
+  "formulier": "contact",
+  "pagina": "https://bureauvonk.example/en/contact",
+  "ingezonden_op": "2026-10-31T14:22:31+01:00",
+  "velden": {
+    "naam": "Hannah Becker",
+    "bedrijf": "Tote & Thread",
+    "email": "hannah@toteandthread.example",
+    "telefoon": "+31 6 00000404",
+    "website": "toteandthread.example",
+    "maandbudget": "More than €5.000",
+    "interesse": ["Meta Ads", "Google Ads"],
+    "bericht": "Hi! We're a small Amsterdam-based brand selling tote bags made from recycled cotton. Right now we spend about 5k a month on Meta ourselves and we'd like an agency to take over and help us scale, also into Germany next spring. Do you work in English? And could you send me your rates? Thanks, Hannah"
+  }
+}

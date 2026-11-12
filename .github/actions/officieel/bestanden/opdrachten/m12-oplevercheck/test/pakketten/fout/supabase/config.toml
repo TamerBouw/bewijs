@@ -1,0 +1,6 @@
+# Fictief pakket. De berichtenapp en pg_cron sturen een eigen token mee; de functies controleren dat zelf.
+[functions.bubbel-balie]
+verify_jwt = false
+
+[functions.bewaking]
+verify_jwt = false

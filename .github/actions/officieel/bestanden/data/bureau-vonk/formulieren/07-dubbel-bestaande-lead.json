@@ -1,0 +1,15 @@
+{
+  "formulier": "contact",
+  "pagina": "https://bureauvonk.example/contact",
+  "ingezonden_op": "2026-11-02T06:58:40+01:00",
+  "velden": {
+    "naam": "Priya R.",
+    "bedrijf": "Yogastudio Adem",
+    "email": "Priya@YogastudioAdem.example",
+    "telefoon": "0600000303",
+    "website": "yogastudioadem.example",
+    "maandbudget": "€500 - €1.000",
+    "interesse": ["Meta Ads"],
+    "bericht": "Ik had gisteren al iets ingevuld maar vergat ons budget. We denken aan ongeveer 700 euro per maand voor advertenties. De nieuwe studio opent op 4 januari."
+  }
+}

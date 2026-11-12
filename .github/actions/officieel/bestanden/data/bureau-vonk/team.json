@@ -1,0 +1,93 @@
+[
+  {
+    "id": "T01",
+    "naam": "Eva",
+    "rol": "eigenaar",
+    "functie": "Eigenaar en strategie",
+    "email": "eva@bureauvonk.example",
+    "telefoon": "06-00000001",
+    "slack": "@eva",
+    "uren_per_week": 40,
+    "accounts": ["K03", "K05"],
+    "taken": ["strategie en positionering", "strategiesessies Schaal-klanten", "prijzen en kortingen", "contracten", "escalaties en klachten"],
+    "mag_goedkeuren": ["budget_wijzigen", "campagne_starten", "campagne_pauzeren", "advertentie_publiceren", "bericht_naar_klant", "voorstel_versturen", "korting_geven", "factuur_wijzigen", "contract_wijzigen", "data_exporteren", "data_verwijderen"]
+  },
+  {
+    "id": "T02",
+    "naam": "Daan",
+    "rol": "accountmanager",
+    "functie": "Accountmanager",
+    "email": "daan@bureauvonk.example",
+    "telefoon": "06-00000002",
+    "slack": "@daan",
+    "uren_per_week": 40,
+    "accounts": ["K01", "K02", "K04", "K06"],
+    "taken": ["eerste aanspreekpunt klanten", "nieuwe leads en kennismakingen", "voorstellen", "maandrapporten bespreken"],
+    "mag_goedkeuren": ["bericht_naar_klant", "voorstel_versturen"]
+  },
+  {
+    "id": "T03",
+    "naam": "Noor",
+    "rol": "performance_marketeer",
+    "functie": "Performance marketeer",
+    "email": "noor@bureauvonk.example",
+    "telefoon": "06-00000003",
+    "slack": "@noor",
+    "uren_per_week": 36,
+    "accounts": [],
+    "taken": ["campagnes in Meta Ads, Google Ads en LinkedIn", "budgetverdeling", "tests", "cijfers voor rapporten"],
+    "mag_goedkeuren": ["budget_wijzigen", "campagne_starten", "campagne_pauzeren", "advertentie_publiceren"]
+  },
+  {
+    "id": "T04",
+    "naam": "Sem",
+    "rol": "creative",
+    "functie": "Creative en video",
+    "email": "sem@bureauvonk.example",
+    "telefoon": "06-00000004",
+    "slack": "@sem",
+    "uren_per_week": 40,
+    "accounts": [],
+    "taken": ["video-ads", "UGC-regie", "beeld en montage", "creative-sprints"],
+    "mag_goedkeuren": []
+  },
+  {
+    "id": "T05",
+    "naam": "Lotte",
+    "rol": "copywriter",
+    "functie": "Copywriter",
+    "email": "lotte@bureauvonk.example",
+    "telefoon": "06-00000005",
+    "slack": "@lotte",
+    "uren_per_week": 32,
+    "accounts": [],
+    "taken": ["advertentieteksten", "e-mailcampagnes", "landingspagina's", "brand voice per klant bewaken"],
+    "mag_goedkeuren": []
+  },
+  {
+    "id": "T06",
+    "naam": "Milan",
+    "rol": "automatisering",
+    "functie": "Automatisering en dev",
+    "email": "milan@bureauvonk.example",
+    "telefoon": "06-00000006",
+    "slack": "@milan",
+    "uren_per_week": 40,
+    "accounts": [],
+    "taken": ["agents bouwen en beheren", "CRM en koppelingen", "app_settings", "beveiliging van de agents"],
+    "mag_goedkeuren": []
+  },
+  {
+    "id": "T07",
+    "naam": "Fleur",
+    "rol": "projectcoordinator",
+    "functie": "Projectcoördinatie",
+    "email": "fleur@bureauvonk.example",
+    "telefoon": "06-00000007",
+    "slack": "@fleur",
+    "uren_per_week": 32,
+    "accounts": [],
+    "taken": ["planning en deadlines", "onboarding nieuwe klanten", "facturen en betalingen", "leveranciers"],
+    "mag_goedkeuren": ["bericht_naar_klant"]
+  }
+]

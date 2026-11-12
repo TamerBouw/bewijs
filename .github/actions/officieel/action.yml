@@ -1,0 +1,20 @@
+name: Officiële bestanden van de cursus
+description: >
+  Zet de officiële tests, test-hulp, data, scripts, het manifest en package.json/package-lock.json van deze
+  platformversie over de werkmap van de cursist. De bestanden staan in bestanden/ naast dit bestand en worden
+  gemaakt met werk-bij.sh in de root van de platformrepo.
+inputs:
+  alleen-pad:
+    description: "'true': niets kopiëren, alleen het pad naar de bestanden teruggeven (voor de meldjob)"
+    default: "false"
+outputs:
+  pad:
+    description: Map met de officiële bestanden van deze platformversie
+    value: ${{ github.action_path }}/bestanden
+runs:
+  using: composite
+  steps:
+    - name: Officiële bestanden zetten
+      if: ${{ inputs.alleen-pad != 'true' }}
+      shell: bash
+      run: bash "$GITHUB_ACTION_PATH/zet-officieel.sh" "$GITHUB_ACTION_PATH/bestanden" "$GITHUB_WORKSPACE"

@@ -1,0 +1,185 @@
+[
+  {
+    "id": "L001", "naam": "Hanna Veldkamp", "bedrijf": "Wolwinkel Draad", "email": "hanna@wolwinkeldraad.example", "telefoon": "06-00000301",
+    "branche": "webshop garen en breipakketten", "website": "wolwinkeldraad.example", "bron": "formulier", "status": "nieuw",
+    "aangemaakt_op": "2026-10-30", "budget_indicatie_eur": 1500, "kanalen_interesse": ["meta"], "eigenaar": "T02", "laatste_contact_op": null,
+    "voorstel_datum": null, "voorstel_pakket": null, "voorstel_bedrag_eur": null, "opvolgconcept": null, "klant_id": null, "verloren_reden": null,
+    "notitie": "Vraagt wat het kost om op Instagram te adverteren. Verkoopt vooral in de herfst en winter."
+  },
+  {
+    "id": "L002", "naam": "Joyce Pater", "bedrijf": "Wasserette Bubbel", "email": "joyce@wasserettebubbel.example", "telefoon": "06-00000302",
+    "branche": "wasserette-keten met 4 vestigingen", "website": "wasserettebubbel.example", "bron": "linkedin", "status": "gekwalificeerd",
+    "aangemaakt_op": "2026-10-21", "budget_indicatie_eur": 800, "kanalen_interesse": ["meta"], "eigenaar": "T01", "laatste_contact_op": "2026-10-30",
+    "voorstel_datum": null, "voorstel_pakket": null, "voorstel_bedrag_eur": null, "opvolgconcept": null, "klant_id": null, "verloren_reden": null,
+    "notitie": "Reageerde op een LinkedIn-post van Milan over agents. Intakegesprek 30 oktober (zie intake/). Wil vooral agents voor klantvragen, storingen en bedrijfswas: maatwerk. Daarnaast mogelijk Start voor de was- en vouwservice."
+  },
+  {
+    "id": "L003", "naam": "Priya Raghoebir", "bedrijf": "Yogastudio Adem", "email": "priya@yogastudioadem.example", "telefoon": "06-00000303",
+    "branche": "yogastudio", "website": "yogastudioadem.example", "bron": "formulier", "status": "nieuw",
+    "aangemaakt_op": "2026-11-01", "budget_indicatie_eur": null, "kanalen_interesse": ["meta"], "eigenaar": "T02", "laatste_contact_op": null,
+    "voorstel_datum": null, "voorstel_pakket": null, "voorstel_bedrag_eur": null, "opvolgconcept": null, "klant_id": null, "verloren_reden": null,
+    "notitie": "Wil meer proeflessen voor de nieuwe studio. Budget nog onbekend."
+  },
+  {
+    "id": "L004", "naam": "Thomas Brink", "bedrijf": "Kantoorinrichting Plan B", "email": "thomas@kantoorplanb.example", "telefoon": "06-00000304",
+    "branche": "B2B-webshop kantoormeubilair", "website": "kantoorplanb.example", "bron": "linkedin", "status": "nieuw",
+    "aangemaakt_op": "2026-11-02", "budget_indicatie_eur": 5000, "kanalen_interesse": ["google", "linkedin"], "eigenaar": "T02", "laatste_contact_op": null,
+    "voorstel_datum": null, "voorstel_pakket": null, "voorstel_bedrag_eur": null, "opvolgconcept": null, "klant_id": null, "verloren_reden": null,
+    "notitie": "Reageerde om 07.50 uur op een LinkedIn-post van Eva over B2B-leads."
+  },
+  {
+    "id": "L005", "naam": "Mehmet Aydin", "bedrijf": "Eetcafé De Gieter", "email": "mehmet@eetcafedegieter.example", "telefoon": "06-00000305",
+    "branche": "horeca", "website": "eetcafedegieter.example", "bron": "doorverwijzing", "status": "nieuw",
+    "aangemaakt_op": "2026-10-29", "budget_indicatie_eur": 400, "kanalen_interesse": ["meta"], "eigenaar": "T02", "laatste_contact_op": null,
+    "voorstel_datum": null, "voorstel_pakket": null, "voorstel_bedrag_eur": null, "opvolgconcept": null, "klant_id": null, "verloren_reden": null,
+    "notitie": "Doorverwezen door Ilse van Bakkerij Korrel. Budget onder het minimum van 500 euro per kanaal."
+  },
+  {
+    "id": "L006", "naam": "Lisa Hoekstra", "bedrijf": "Snuffel Diervoeding", "email": "lisa@snuffeldiervoeding.example", "telefoon": "06-00000306",
+    "branche": "webshop diervoeding", "website": "snuffeldiervoeding.example", "bron": "formulier", "status": "gekwalificeerd",
+    "aangemaakt_op": "2026-10-20", "budget_indicatie_eur": 4000, "kanalen_interesse": ["meta", "google"], "eigenaar": "T02", "laatste_contact_op": "2026-10-27",
+    "voorstel_datum": null, "voorstel_pakket": null, "voorstel_bedrag_eur": null, "opvolgconcept": null, "klant_id": null, "verloren_reden": null,
+    "notitie": "Webshopomzet rond 45.000 euro per maand. Wil Black Friday (27 november) nog meepakken. Past bij Groei."
+  },
+  {
+    "id": "L007", "naam": "Martijn Dekkers", "bedrijf": "Fietsplaats Spaak", "email": "martijn@fietsplaatsspaak.example", "telefoon": "06-00000307",
+    "branche": "fietsenwinkel met webshop (e-bikes)", "website": "fietsplaatsspaak.example", "bron": "mail", "status": "gekwalificeerd",
+    "aangemaakt_op": "2026-10-22", "budget_indicatie_eur": 12000, "kanalen_interesse": ["meta", "google"], "eigenaar": "T01", "laatste_contact_op": "2026-10-29",
+    "voorstel_datum": null, "voorstel_pakket": null, "voorstel_bedrag_eur": null, "opvolgconcept": null, "klant_id": null, "verloren_reden": null,
+    "notitie": "Wil ook e-mailflows. Vraagt naar korting bij een jaarcontract. Past bij Schaal."
+  },
+  {
+    "id": "L008", "naam": "Femke Jonker", "bedrijf": "Salon Lok", "email": "femke@salonlok.example", "telefoon": "06-00000308",
+    "branche": "kapsalon", "website": "salonlok.example", "bron": "formulier", "status": "gekwalificeerd",
+    "aangemaakt_op": "2026-10-23", "budget_indicatie_eur": 700, "kanalen_interesse": ["meta"], "eigenaar": "T02", "laatste_contact_op": "2026-10-28",
+    "voorstel_datum": null, "voorstel_pakket": null, "voorstel_bedrag_eur": null, "opvolgconcept": null, "klant_id": null, "verloren_reden": null,
+    "notitie": "Wil 'eerst een maandje proberen'. Dat kan niet: minimale looptijd is 3 maanden. Past bij Start."
+  },
+  {
+    "id": "L009", "naam": "Karim Bennani", "bedrijf": "Keukenstudio Kook", "email": "karim@keukenstudiokook.example", "telefoon": "06-00000309",
+    "branche": "keukenzaak met showroom", "website": "keukenstudiokook.example", "bron": "doorverwijzing", "status": "gekwalificeerd",
+    "aangemaakt_op": "2026-10-26", "budget_indicatie_eur": 2500, "kanalen_interesse": ["meta", "google"], "eigenaar": "T02", "laatste_contact_op": "2026-10-30",
+    "voorstel_datum": null, "voorstel_pakket": null, "voorstel_bedrag_eur": null, "opvolgconcept": null, "klant_id": null, "verloren_reden": null,
+    "notitie": "Doorverwezen door Ruben van Groenwerk. Wil een landingspagina voor showroomafspraken. Groei plus landingspagina."
+  },
+  {
+    "id": "L010", "naam": "Olivia Smits", "bedrijf": "Theehuis Blad", "email": "olivia@theehuisblad.example", "telefoon": "06-00000310",
+    "branche": "webshop thee", "website": "theehuisblad.example", "bron": "formulier", "status": "voorstel_verstuurd",
+    "aangemaakt_op": "2026-09-18", "budget_indicatie_eur": 2000, "kanalen_interesse": ["meta", "google"], "eigenaar": "T02", "laatste_contact_op": "2026-09-30",
+    "voorstel_datum": "2026-09-30", "voorstel_pakket": "groei", "voorstel_bedrag_eur": 7800, "opvolgconcept": null, "klant_id": null, "verloren_reden": null,
+    "notitie": "Voorstel is ouder dan 30 dagen en dus verlopen. Niet gewoon opvolgen: eerst een nieuw voorstel."
+  },
+  {
+    "id": "L011", "naam": "Ruud Hermans", "bedrijf": "Padelhal Smash", "email": "ruud@padelhalsmash.example", "telefoon": "06-00000311",
+    "branche": "padelhal", "website": "padelhalsmash.example", "bron": "linkedin", "status": "voorstel_verstuurd",
+    "aangemaakt_op": "2026-10-02", "budget_indicatie_eur": 800, "kanalen_interesse": ["meta"], "eigenaar": "T02", "laatste_contact_op": "2026-10-12",
+    "voorstel_datum": "2026-10-12", "voorstel_pakket": "start", "voorstel_bedrag_eur": 5150, "opvolgconcept": null, "klant_id": null, "verloren_reden": null,
+    "notitie": "Start plus creative-sprint: 3 x 1.250 + 450 opstart + 950 sprint."
+  },
+  {
+    "id": "L012", "naam": "Anke Wolters", "bedrijf": "Meubelmakerij Nerf", "email": "anke@meubelmakerijnerf.example", "telefoon": "06-00000312",
+    "branche": "meubelmaker met showroom en webshop", "website": "meubelmakerijnerf.example", "bron": "formulier", "status": "voorstel_verstuurd",
+    "aangemaakt_op": "2026-10-06", "budget_indicatie_eur": 3000, "kanalen_interesse": ["meta", "google"], "eigenaar": "T02", "laatste_contact_op": "2026-10-19",
+    "voorstel_datum": "2026-10-19", "voorstel_pakket": "groei", "voorstel_bedrag_eur": 9600,
+    "opvolgconcept": {
+      "aangemaakt_op": "2026-10-28",
+      "onderwerp": "Jullie voorstel: nog vragen over de landingspagina?",
+      "tekst": "Hoi Anke,\n\nVorige week maandag stuurde ik je ons voorstel voor Groei met een landingspagina voor de showroom. Ik ben benieuwd hoe het bij jullie is gevallen. Zal ik donderdag even bellen om je vragen door te lopen?\n\nGroet,\nDaan"
+    },
+    "klant_id": null, "verloren_reden": null,
+    "notitie": "Groei plus landingspagina: 3 x 2.450 + 450 + 1.800. Concept staat klaar, nog niet verstuurd."
+  },
+  {
+    "id": "L013", "naam": "Jasper van Rooij", "bedrijf": "Advocatenkantoor Kern", "email": "jasper@advocatenkern.example", "telefoon": "06-00000313",
+    "branche": "advocatenkantoor (arbeidsrecht, B2B)", "website": "advocatenkern.example", "bron": "linkedin", "status": "voorstel_verstuurd",
+    "aangemaakt_op": "2026-10-09", "budget_indicatie_eur": 2000, "kanalen_interesse": ["linkedin", "google"], "eigenaar": "T01", "laatste_contact_op": "2026-10-22",
+    "voorstel_datum": "2026-10-22", "voorstel_pakket": "groei", "voorstel_bedrag_eur": 7800, "opvolgconcept": null, "klant_id": null, "verloren_reden": null,
+    "notitie": "Wil eerst intern overleggen met de partners."
+  },
+  {
+    "id": "L014", "naam": "Charlotte Peeters", "bedrijf": "Babywinkel Wiegje", "email": "charlotte@babywinkelwiegje.example", "telefoon": "06-00000314",
+    "branche": "webshop babyartikelen", "website": "babywinkelwiegje.example", "bron": "doorverwijzing", "status": "voorstel_verstuurd",
+    "aangemaakt_op": "2026-10-08", "budget_indicatie_eur": 10000, "kanalen_interesse": ["meta", "google"], "eigenaar": "T01", "laatste_contact_op": "2026-10-23",
+    "voorstel_datum": "2026-10-23", "voorstel_pakket": "schaal", "voorstel_bedrag_eur": 14700,
+    "opvolgconcept": {
+      "aangemaakt_op": "2026-10-30",
+      "onderwerp": "Even checken: het voorstel voor Schaal",
+      "tekst": "Hoi Charlotte,\n\nVorige week stuurde ik je het voorstel voor Schaal, inclusief de e-mailflows voor nieuwe ouders. Is er iets dat nog onduidelijk is? Ik plan graag een kort belmoment in.\n\nGroet,\nEva"
+    },
+    "klant_id": null, "verloren_reden": null,
+    "notitie": "Schaal: 3 x 4.900, geen opstartkosten. Concept staat klaar, nog niet verstuurd."
+  },
+  {
+    "id": "L015", "naam": "Gijs Mulder", "bedrijf": "Bloemist Steel", "email": "gijs@bloemiststeel.example", "telefoon": "06-00000315",
+    "branche": "bloemist", "website": "bloemiststeel.example", "bron": "formulier", "status": "voorstel_verstuurd",
+    "aangemaakt_op": "2026-10-19", "budget_indicatie_eur": 600, "kanalen_interesse": ["meta"], "eigenaar": "T02", "laatste_contact_op": "2026-10-26",
+    "voorstel_datum": "2026-10-26", "voorstel_pakket": "start", "voorstel_bedrag_eur": 4200, "opvolgconcept": null, "klant_id": null, "verloren_reden": null,
+    "notitie": "Precies 7 dagen geleden verstuurd: grensgeval voor de opvolgregel."
+  },
+  {
+    "id": "L016", "naam": "Sophie Verbeek", "bedrijf": "Camperverhuur Vrij", "email": "sophie@campervrij.example", "telefoon": "06-00000316",
+    "branche": "camperverhuur", "website": "campervrij.example", "bron": "mail", "status": "voorstel_verstuurd",
+    "aangemaakt_op": "2026-10-14", "budget_indicatie_eur": 3500, "kanalen_interesse": ["meta", "google"], "eigenaar": "T02", "laatste_contact_op": "2026-10-28",
+    "voorstel_datum": "2026-10-28", "voorstel_pakket": "groei", "voorstel_bedrag_eur": 7800, "opvolgconcept": null, "klant_id": null, "verloren_reden": null,
+    "notitie": "Wil starten in januari voor het boekingsseizoen."
+  },
+  {
+    "id": "L017", "naam": "Niels Bosman", "bedrijf": "Planbaar Software", "email": "niels@planbaar.example", "telefoon": "06-00000317",
+    "branche": "B2B-software (SaaS)", "website": "planbaar.example", "bron": "linkedin", "status": "voorstel_verstuurd",
+    "aangemaakt_op": "2026-10-15", "budget_indicatie_eur": 4000, "kanalen_interesse": ["linkedin", "google"], "eigenaar": "T01", "laatste_contact_op": "2026-10-29",
+    "voorstel_datum": "2026-10-29", "voorstel_pakket": "groei", "voorstel_bedrag_eur": 26910, "opvolgconcept": null, "klant_id": null, "verloren_reden": null,
+    "notitie": "Jaarcontract Groei met 10% korting: 12 x 2.205 + 450 opstart."
+  },
+  {
+    "id": "L018", "naam": "Marloes de Graaf", "bedrijf": "Wijnhandel Druif", "email": "marloes@wijnhandeldruif.example", "telefoon": "06-00000318",
+    "branche": "webshop wijn", "website": "wijnhandeldruif.example", "bron": "formulier", "status": "voorstel_verstuurd",
+    "aangemaakt_op": "2026-10-21", "budget_indicatie_eur": 2500, "kanalen_interesse": ["meta", "google"], "eigenaar": "T02", "laatste_contact_op": "2026-10-30",
+    "voorstel_datum": "2026-10-30", "voorstel_pakket": "groei", "voorstel_bedrag_eur": 7800, "opvolgconcept": null, "klant_id": null, "verloren_reden": null,
+    "notitie": "Alcoholreclame: geen jongeren onder 25 targeten, geen claims over effect."
+  },
+  {
+    "id": "L019", "naam": "Bas Lindeman", "bedrijf": "TechNest Recruitment", "email": "bas@technest.example", "telefoon": "06-00000205",
+    "branche": "B2B-recruitment", "website": "technest.example", "bron": "linkedin", "status": "gewonnen",
+    "aangemaakt_op": "2026-04-08", "budget_indicatie_eur": 3500, "kanalen_interesse": ["linkedin", "google"], "eigenaar": "T01", "laatste_contact_op": "2026-04-22",
+    "voorstel_datum": "2026-04-15", "voorstel_pakket": "groei", "voorstel_bedrag_eur": 7800, "opvolgconcept": null, "klant_id": "K05", "verloren_reden": null,
+    "notitie": "Klant sinds 1 mei 2026."
+  },
+  {
+    "id": "L020", "naam": "Ilse Kroeze", "bedrijf": "Bakkerij Korrel", "email": "ilse@bakkerijkorrel.example", "telefoon": "06-00000206",
+    "branche": "bakkerij", "website": "bakkerijkorrel.example", "bron": "doorverwijzing", "status": "gewonnen",
+    "aangemaakt_op": "2026-05-06", "budget_indicatie_eur": 600, "kanalen_interesse": ["meta"], "eigenaar": "T02", "laatste_contact_op": "2026-05-15",
+    "voorstel_datum": "2026-05-12", "voorstel_pakket": "start", "voorstel_bedrag_eur": 4200, "opvolgconcept": null, "klant_id": "K06", "verloren_reden": null,
+    "notitie": "Klant sinds 1 juni 2026."
+  },
+  {
+    "id": "L021", "naam": "Tim Hendriks", "bedrijf": "Schoenenwinkel Zool", "email": "tim@schoenenwinkelzool.example", "telefoon": "06-00000321",
+    "branche": "schoenenwinkel met webshop", "website": "schoenenwinkelzool.example", "bron": "formulier", "status": "gewonnen",
+    "aangemaakt_op": "2026-10-13", "budget_indicatie_eur": 1800, "kanalen_interesse": ["meta", "google"], "eigenaar": "T02", "laatste_contact_op": "2026-10-27",
+    "voorstel_datum": "2026-10-20", "voorstel_pakket": null, "voorstel_bedrag_eur": 650, "opvolgconcept": null, "klant_id": null, "verloren_reden": null,
+    "notitie": "Alleen de advertentie-audit afgenomen (27 oktober). Audit gepland in week 46. Neemt hij binnen 30 dagen een pakket, dan verrekenen we de 650 euro."
+  },
+  {
+    "id": "L022", "naam": "Erik Visser", "bedrijf": "Tegelhandel Voeg", "email": "erik@tegelhandelvoeg.example", "telefoon": "06-00000322",
+    "branche": "tegelhandel", "website": "tegelhandelvoeg.example", "bron": "mail", "status": "verloren",
+    "aangemaakt_op": "2026-08-25", "budget_indicatie_eur": 1500, "kanalen_interesse": ["google"], "eigenaar": "T02", "laatste_contact_op": "2026-09-21",
+    "voorstel_datum": "2026-09-08", "voorstel_pakket": "start", "voorstel_bedrag_eur": 4200, "opvolgconcept": null, "klant_id": null,
+    "verloren_reden": "Koos voor een freelancer die 600 euro per maand vraagt.",
+    "notitie": "Over een half jaar nog eens polsen."
+  },
+  {
+    "id": "L023", "naam": "Joris Kuipers", "bedrijf": "Uitlaatservice Pootje", "email": "joris@uitlaatservicepootje.example", "telefoon": "06-00000323",
+    "branche": "hondenuitlaatservice", "website": null, "bron": "formulier", "status": "verloren",
+    "aangemaakt_op": "2026-09-10", "budget_indicatie_eur": 250, "kanalen_interesse": ["meta"], "eigenaar": "T02", "laatste_contact_op": "2026-09-11",
+    "voorstel_datum": null, "voorstel_pakket": null, "voorstel_bedrag_eur": null, "opvolgconcept": null, "klant_id": null,
+    "verloren_reden": "Budget te klein (250 euro per maand). Vriendelijk afgewezen met een gratis checklist.",
+    "notitie": null
+  },
+  {
+    "id": "L024", "naam": "Esther Bakker", "bedrijf": "Escape Room Code", "email": "esther@escaperoomcode.example", "telefoon": "06-00000324",
+    "branche": "escaperoom", "website": "escaperoomcode.example", "bron": "formulier", "status": "verloren",
+    "aangemaakt_op": "2026-09-01", "budget_indicatie_eur": 900, "kanalen_interesse": ["meta"], "eigenaar": "T02", "laatste_contact_op": "2026-09-29",
+    "voorstel_datum": "2026-09-15", "voorstel_pakket": "start", "voorstel_bedrag_eur": 4200, "opvolgconcept": null, "klant_id": null,
+    "verloren_reden": "Geen reactie na twee opvolgingen.",
+    "notitie": null
+  }
+]

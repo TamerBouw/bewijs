@@ -1,0 +1,15 @@
+{
+  "formulier": "contact",
+  "pagina": "https://bureauvonk.example/contact",
+  "ingezonden_op": "2026-11-01T20:41:09+01:00",
+  "velden": {
+    "naam": "Lars Timmer",
+    "bedrijf": "Puur Plant",
+    "email": "lars@puurplant.example",
+    "telefoon": "06-00000401",
+    "website": "https://puurplant.example",
+    "maandbudget": "€2.500 - €5.000",
+    "interesse": ["Meta Ads", "Google Ads", "Content en video"],
+    "bericht": "Wij zijn een webshop in kamerplanten en potten (omzet ongeveer 28.000 euro per maand, gemiddelde bestelling 54 euro). We adverteren nu zelf op Meta met ongeveer 2.000 euro per maand, ROAS schommelt tussen 1,8 en 2,5. Google Shopping staat aan maar daar kijkt niemand echt naar. Doel: ROAS van 3 en meer omzet in het voorjaar. We willen ook vaker nieuwe video's. Liefst starten in december zodat alles staat voor februari."
+  }
+}

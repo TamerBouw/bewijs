@@ -1,0 +1,76 @@
+{
+  "valuta": "EUR",
+  "btw_pct": 21,
+  "prijzen_excl_btw": true,
+  "pakketten": [
+    {
+      "code": "start",
+      "naam": "Start",
+      "prijs_per_maand_eur": 1250,
+      "opstartkosten_eur": 450,
+      "max_kanalen": 1,
+      "creatives_per_maand": 0,
+      "rapportage": "maand",
+      "email_marketing": false,
+      "strategiesessie": false,
+      "inbegrepen": ["beheer van 1 advertentiekanaal", "maandrapport", "maandelijks belmoment van 30 minuten"],
+      "niet_inbegrepen": ["nieuwe creatives (we werken met aangeleverd beeld; extra via creative-sprint)", "weekrapport", "e-mailmarketing"]
+    },
+    {
+      "code": "groei",
+      "naam": "Groei",
+      "prijs_per_maand_eur": 2450,
+      "opstartkosten_eur": 450,
+      "max_kanalen": 2,
+      "creatives_per_maand": 8,
+      "rapportage": "week",
+      "email_marketing": false,
+      "strategiesessie": false,
+      "inbegrepen": ["beheer van 2 advertentiekanalen", "8 nieuwe creatives per maand", "weekrapport op maandag", "maandrapport"],
+      "niet_inbegrepen": ["e-mailmarketing", "maandelijkse strategiesessie"]
+    },
+    {
+      "code": "schaal",
+      "naam": "Schaal",
+      "prijs_per_maand_eur": 4900,
+      "opstartkosten_eur": 0,
+      "max_kanalen": 3,
+      "creatives_per_maand": 20,
+      "rapportage": "week",
+      "email_marketing": true,
+      "strategiesessie": true,
+      "inbegrepen": ["beheer van maximaal 3 advertentiekanalen (e-mail telt niet als advertentiekanaal)","20 nieuwe creatives per maand", "e-mailmarketing: campagnes en flows", "weekrapport en maandrapport", "maandelijkse strategiesessie met Eva"],
+      "niet_inbegrepen": ["landingspagina's (los project)"]
+    }
+  ],
+  "losse_projecten": [
+    { "code": "landingspagina", "naam": "Landingspagina", "prijs_eur": 1800, "omschrijving": "Eén landingspagina: copy, ontwerp en bouw, inclusief 2 correctierondes." },
+    { "code": "creative_sprint", "naam": "Creative-sprint", "prijs_eur": 950, "omschrijving": "10 extra creatives (statisch, carrousel of korte video) binnen 10 werkdagen." },
+    { "code": "advertentie_audit", "naam": "Advertentie-audit", "prijs_eur": 650, "omschrijving": "Doorlichting van 1 of 2 advertentieaccounts met rapport en adviesgesprek. Wordt verrekend met de eerste maandfee als de klant binnen 30 dagen een pakket afneemt." }
+  ],
+  "regels": {
+    "minimale_looptijd_maanden": 3,
+    "opzegtermijn_maanden": 1,
+    "facturatie": "maandelijks vooraf",
+    "betaaltermijn_dagen": 14,
+    "voorstel_geldig_dagen": 30,
+    "jaarcontract_korting_pct": 10,
+    "max_uitzondering_korting_pct": 10,
+    "uitzondering_korting_goedkeurder": "T01",
+    "meerwerk_uurtarief_eur": 95,
+    "min_advertentiebudget_per_kanaal_eur": 500,
+    "audit_verrekenen_binnen_dagen": 30,
+    "advertentiebudget_betaalt": "klant, rechtstreeks aan het platform",
+    "niet_mogelijk": [
+      "proefmaand of looptijd korter dan 3 maanden",
+      "resultaatgarantie op ROAS, leads of omzet, of no-cure-no-pay",
+      "losse kanalen bijkopen: dan is het het volgende pakket",
+      "advertentiebudget via de rekening van Vonk laten lopen",
+      "de maandfee pauzeren tijdens de minimale looptijd",
+      "ongebruikte creatives meenemen naar de volgende maand",
+      "een pakket aannemen met minder dan 500 euro advertentiebudget per kanaal per maand",
+      "korting stapelen (jaarcontract plus uitzondering)"
+    ],
+    "maatwerk_automatisering": "Agent- en automatiseringsprojecten zijn maatwerk: vaste projectprijs na een intake, berekend op 95 euro per uur. Er is geen standaardpakket voor."
+  }
+}

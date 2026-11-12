@@ -1,0 +1,130 @@
+{
+  "fictief": true,
+  "uurtarief_bouwer_eur": 95,
+  "usd_naar_eur": 0.86,
+  "max_terugverdientijd_maanden": 12,
+  "budget": { "eenmalig_eur": 9000, "per_maand_eur": 350 },
+  "project": { "overhead_uren": 12, "hosting_eur_per_maand": 25 },
+  "processen": [
+    {
+      "proces_id": "P01",
+      "dekking": 0.55, "minuten_met_agent": 0.25,
+      "kosten_per_fout_eur": 0, "foutreductie": 0,
+      "bouwuren": 32, "beheer_uren_per_maand": 1,
+      "model": "claude-haiku-5-5", "input_tokens_per_aanroep": 6000, "output_tokens_per_aanroep": 400, "aanroepen_per_keer": 2,
+      "proces_stabiel": true, "data_beschikbaar": true, "fout_herstelbaar": true, "besluit_over_persoon": false, "relatiewerk": false,
+      "aannames": [
+        "dekking 0,55 (aanname): van de 60% herhaalvragen (geschat door Hamid) handelt de agent er ruim negen op de tien af.",
+        "0,25 minuut per afgehandelde vraag voor de dagelijkse steekproef (aanname).",
+        "Scope: alleen de tien standaardvragen. Klachten, kwijtgeraakte was en geld terug gaan altijd naar een mens.",
+        "Kortere reactietijd (nu gemiddeld 5 uur) is niet in geld uitgedrukt."
+      ]
+    },
+    {
+      "proces_id": "P02",
+      "dekking": 0.9, "minuten_met_agent": 2,
+      "kosten_per_fout_eur": 38, "foutreductie": 0.8,
+      "bouwuren": 28, "beheer_uren_per_maand": 1,
+      "model": "claude-haiku-5-5", "input_tokens_per_aanroep": 3000, "output_tokens_per_aanroep": 500, "aanroepen_per_keer": 2,
+      "proces_stabiel": true, "data_beschikbaar": true, "fout_herstelbaar": true, "besluit_over_persoon": false, "relatiewerk": false,
+      "aannames": [
+        "Een QR-sticker per machine opent een formulier met vestiging en machinenummer al ingevuld (onderdeel van de bouw).",
+        "Een tweede monteursbezoek kost 1 extra dag stilstand van 38 euro omzet (aanname; 38 euro per dag is een schatting van Joyce).",
+        "foutreductie 0,8 (aanname): vier op de vijf onvolledige meldingen verdwijnen.",
+        "Snellere melding (minder stilstand bij elke storing) is niet meegerekend: meten in de proef."
+      ]
+    },
+    {
+      "proces_id": "P03",
+      "dekking": 0.7, "minuten_met_agent": 2,
+      "kosten_per_fout_eur": 0, "foutreductie": 0,
+      "bouwuren": 40, "beheer_uren_per_maand": 1,
+      "model": "claude-sonnet-5-5", "input_tokens_per_aanroep": 8000, "output_tokens_per_aanroep": 800, "aanroepen_per_keer": 2,
+      "proces_stabiel": false, "data_beschikbaar": true, "fout_herstelbaar": true, "besluit_over_persoon": false, "relatiewerk": false,
+      "aannames": [
+        "Orders komen via drie kanalen zonder vaste velden binnen ('zelfde als vorige keer'). Eerst een vast bestelformulier.",
+        "Het aantal fouten in de planning is niet geteld: open vraag voor 6 november."
+      ]
+    },
+    {
+      "proces_id": "P04",
+      "dekking": 0.9, "minuten_met_agent": 5,
+      "kosten_per_fout_eur": 40, "foutreductie": 0.5,
+      "bouwuren": 30, "beheer_uren_per_maand": 1,
+      "model": null, "input_tokens_per_aanroep": 0, "output_tokens_per_aanroep": 0, "aanroepen_per_keer": 0,
+      "proces_stabiel": true, "data_beschikbaar": true, "fout_herstelbaar": true, "besluit_over_persoon": false, "relatiewerk": false,
+      "aannames": [
+        "Geen taalmodel nodig: factuurregels volgen uit de planning.",
+        "Een foute factuur kost 40 euro aan herstel en creditnota (aanname, 1,5 uur van Joyce).",
+        "Of het boekhoudprogramma een koppeling heeft, is onbekend; 30 bouwuren is een schatting."
+      ]
+    },
+    {
+      "proces_id": "P05",
+      "dekking": 0.9, "minuten_met_agent": 0.25,
+      "kosten_per_fout_eur": 0, "foutreductie": 0,
+      "bouwuren": 16, "beheer_uren_per_maand": 0.25,
+      "model": null, "input_tokens_per_aanroep": 0, "output_tokens_per_aanroep": 0, "aanroepen_per_keer": 0,
+      "proces_stabiel": true, "data_beschikbaar": false, "fout_herstelbaar": true, "besluit_over_persoon": false, "relatiewerk": false,
+      "aannames": [
+        "Er is geen systeem dat weet welke was klaar is. Eerst bonnummers met een status, of een vast sjabloonbericht aan de balie.",
+        "Geen taalmodel nodig: het is een vast bericht."
+      ]
+    },
+    {
+      "proces_id": "P06",
+      "dekking": 0.8, "minuten_met_agent": 2,
+      "kosten_per_fout_eur": 0, "foutreductie": 0,
+      "bouwuren": 12, "beheer_uren_per_maand": 0.25,
+      "model": "claude-sonnet-5-5", "input_tokens_per_aanroep": 3000, "output_tokens_per_aanroep": 400, "aanroepen_per_keer": 1,
+      "proces_stabiel": true, "data_beschikbaar": true, "fout_herstelbaar": false, "besluit_over_persoon": false, "relatiewerk": true,
+      "aannames": [
+        "Een reactie op een review is openbaar: Joyce keurt elk concept goed (2 minuten, aanname)."
+      ]
+    },
+    {
+      "proces_id": "P07",
+      "dekking": 0.8, "minuten_met_agent": 10,
+      "kosten_per_fout_eur": 0, "foutreductie": 0,
+      "bouwuren": 20, "beheer_uren_per_maand": 0.5,
+      "model": null, "input_tokens_per_aanroep": 0, "output_tokens_per_aanroep": 0, "aanroepen_per_keer": 0,
+      "proces_stabiel": true, "data_beschikbaar": true, "fout_herstelbaar": true, "besluit_over_persoon": false, "relatiewerk": false,
+      "aannames": [
+        "Routeplanning is rekenwerk, geen taalwerk. Hamid controleert de route (10 minuten, aanname)."
+      ]
+    },
+    {
+      "proces_id": "P08",
+      "dekking": 0.6, "minuten_met_agent": 4,
+      "kosten_per_fout_eur": 0, "foutreductie": 0,
+      "bouwuren": 24, "beheer_uren_per_maand": 0.5,
+      "model": "claude-haiku-5-5", "input_tokens_per_aanroep": 4000, "output_tokens_per_aanroep": 300, "aanroepen_per_keer": 2,
+      "proces_stabiel": true, "data_beschikbaar": true, "fout_herstelbaar": true, "besluit_over_persoon": true, "relatiewerk": false,
+      "aannames": [
+        "Wie welke dienst krijgt, is een besluit over een persoon: Joyce beslist altijd."
+      ]
+    },
+    {
+      "proces_id": "P09",
+      "dekking": 0, "minuten_met_agent": 0,
+      "kosten_per_fout_eur": 0, "foutreductie": 0,
+      "bouwuren": 16, "beheer_uren_per_maand": 0.5,
+      "model": "claude-sonnet-5-5", "input_tokens_per_aanroep": 4000, "output_tokens_per_aanroep": 600, "aanroepen_per_keer": 1,
+      "proces_stabiel": true, "data_beschikbaar": true, "fout_herstelbaar": true, "besluit_over_persoon": false, "relatiewerk": false,
+      "aannames": [
+        "Er gaat nu geen tijd in zitten: posten is nieuw werk. Reken het als marketing, niet als besparing."
+      ]
+    },
+    {
+      "proces_id": "P10",
+      "dekking": 0, "minuten_met_agent": 0,
+      "kosten_per_fout_eur": 0, "foutreductie": 0,
+      "bouwuren": 0, "beheer_uren_per_maand": 0,
+      "model": null, "input_tokens_per_aanroep": 0, "output_tokens_per_aanroep": 0, "aanroepen_per_keer": 0,
+      "proces_stabiel": true, "data_beschikbaar": true, "fout_herstelbaar": false, "besluit_over_persoon": false, "relatiewerk": false,
+      "aannames": [
+        "Afgesproken met Joyce: een noodgeval is bellen, nooit een bericht van een agent."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+name: Testbewijs (platform)
+
+# Herbruikbare workflow van het platform. De repo van de cursist roept hem aan met:
+#   uses: tamerbouw/bewijs/.github/workflows/test.yml@v1
+# en geeft daarbij 'permissions: id-token: write, contents: read'.
+#
+# Twee jobs, zodat de code van de cursist nooit draait terwijl er een OIDC-token te krijgen is:
+#   test  checkt de code van de cursist uit, zet de officiële bestanden van DEZE platformversie eroverheen
+#         (tests, test-hulp, data, scripts, manifest, package.json en package-lock.json), draait de tests en
+#         schrijft de groene mappen en groepen op. Geen id-token-recht.
+#   meld  draait alleen het meldscript van het platform en stuurt elke melding met een OIDC-token. Het token
+#         draagt job_workflow_ref (deze workflow op een tag) en job_workflow_sha; het platform controleert die.
+#
+# '$/' verwijst naar deze platformrepo op precies de commit die nu draait (GitHub, juli 2026; runner 2.336.0
+# of nieuwer). Zo horen workflow, officiële bestanden en meldscript altijd bij dezelfde versie.
+
+on:
+  workflow_call:
+    inputs:
+      strikt:
+        description: "'1': de testjob faalt zodra een geteste map rood is (groene groepen worden toch gemeld)"
+        type: string
+        default: ""
+      alles:
+        description: "'1': ook mappen testen die nog niet gestart zijn"
+        type: string
+        default: ""
+
+env:
+  # Het adres waar het platform het bewijs ontvangt. Vóór de lancering invullen (README.md, "Vóór lancering").
+  TAMERBOUW_BEWIJS_URL: https://PLATFORM-DOMEIN/api/bewijs
+
+jobs:
+  test:
+    name: Tests (zonder token)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - name: Code van de cursist ophalen
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - name: Officiële bestanden van het platform eroverheen
+        uses: $/.github/actions/officieel
+
+      - name: Node 22 installeren
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Afhankelijkheden installeren (package-lock.json van het platform)
+        run: npm ci
+
+      - name: Tests draaien
+        env:
+          STRIKT: ${{ inputs.strikt }}
+          ALLES: ${{ inputs.alles }}
+          BEWIJS_MELDINGEN: ${{ runner.temp }}/meldingen.jsonl
+        run: bash scripts/testbewijs.sh
+
+      - name: Meldingen bewaren voor de meldjob
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: testbewijs-meldingen
+          path: ${{ runner.temp }}/meldingen.jsonl
+          if-no-files-found: ignore
+          retention-days: 7
+
+  meld:
+    name: Bewijs melden (OIDC)
+    needs: test
+    # Ook als de testjob faalde (strikte modus): wat groen was, wordt gemeld.
+    if: ${{ always() && needs.test.result != 'cancelled' && needs.test.result != 'skipped' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      id-token: write
+    steps:
+      - name: Meldscript van het platform
+        id: officieel
+        uses: $/.github/actions/officieel
+        with:
+          alleen-pad: "true"
+
+      - name: Meldingen van de testjob ophalen
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: testbewijs-meldingen
+          path: ${{ runner.temp }}/bewijs
+
+      - name: Melden
+        env:
+          MELDSCRIPT: ${{ steps.officieel.outputs.pad }}/scripts/meld-bewijs.sh
+        run: bash "$MELDSCRIPT" "$RUNNER_TEMP/bewijs/meldingen.jsonl"

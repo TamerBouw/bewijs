@@ -1,0 +1,103 @@
+{
+  "bedrijf": "Wasserette Bubbel",
+  "fictief": true,
+  "bron": "Gemeten door Hamid in week 42 en 43 van 2026, gemiddeld per week. Tijden zijn schattingen van het team.",
+  "uurkosten_eur": 26,
+  "omzet_per_maand_eur": 58000,
+  "stilstand_omzetverlies_per_machine_per_dag_eur": 38,
+  "vestigingen": [
+    { "naam": "Centrum", "wasmachines": 14, "drogers": 8, "online_status": true, "balie": "09.00-18.00" },
+    { "naam": "Noord", "wasmachines": 12, "drogers": 6, "online_status": true, "balie": "09.00-18.00" },
+    { "naam": "Zuid", "wasmachines": 10, "drogers": 6, "online_status": false, "balie": "09.00-18.00" },
+    { "naam": "Stationsbuurt", "wasmachines": 10, "drogers": 5, "online_status": false, "balie": "09.00-18.00" }
+  ],
+  "processen": [
+    {
+      "id": "P01", "naam": "Klantvragen beantwoorden", "wie": "Hamid en baliemedewerkers",
+      "kanalen": ["telefoon", "berichtenapp", "Instagram", "e-mail"],
+      "frequentie": "week", "volume": 180, "minuten_per_keer": 3.5,
+      "aandeel_herhaalvragen_pct": 60, "reactietijd_nu": "gemiddeld 5 uur, in het weekend vaak de volgende dag",
+      "talen": ["nl", "en", "pl"],
+      "gevoelige_gegevens": ["namen", "telefoonnummers", "adressen", "soms sleutelcodes"],
+      "pijnpunt": "Hamid beantwoordt 's avonds berichten; klanten wachten lang op simpele antwoorden.",
+      "risico_bij_fout": "middel"
+    },
+    {
+      "id": "P02", "naam": "Storing melden bij de monteur", "wie": "Hamid",
+      "kanalen": ["balie", "telefoon", "briefje op de machine", "e-mail naar onderhoudspartij"],
+      "frequentie": "week", "volume": 14, "minuten_per_keer": 12,
+      "aandeel_onvolledige_meldingen_pct": 30, "gemiddelde_stilstand_dagen": 2.5,
+      "gevoelige_gegevens": [],
+      "pijnpunt": "Melding mist machinenummer, foutcode of vestiging; monteur komt dan twee keer.",
+      "risico_bij_fout": "laag"
+    },
+    {
+      "id": "P03", "naam": "Bedrijfswasorder verwerken in de planning", "wie": "Hamid",
+      "kanalen": ["e-mail", "telefoon", "berichtenapp", "planningsspreadsheet"],
+      "frequentie": "week", "volume": 46, "minuten_per_keer": 8,
+      "gevoelige_gegevens": ["bedrijfsadressen", "sleutelcodes vakantiewoningen"],
+      "pijnpunt": "Vage orders ('zelfde als vorige keer'), overtypen in de spreadsheet, fouten in aantallen.",
+      "risico_bij_fout": "middel"
+    },
+    {
+      "id": "P04", "naam": "Facturen bedrijfswas maken", "wie": "Joyce",
+      "kanalen": ["planningsspreadsheet", "boekhoudprogramma"],
+      "frequentie": "maand", "volume": 23, "minuten_per_keer": 15,
+      "fouten_per_maand": 3,
+      "gevoelige_gegevens": ["bedrijfsgegevens"],
+      "pijnpunt": "Kost een hele middag; ongeveer drie facturen per maand kloppen niet.",
+      "risico_bij_fout": "hoog"
+    },
+    {
+      "id": "P05", "naam": "Klant laten weten dat de was klaar is", "wie": "baliemedewerkers",
+      "kanalen": ["telefoon", "berichtenapp"],
+      "frequentie": "week", "volume": 95, "minuten_per_keer": 1.5,
+      "gevoelige_gegevens": ["namen", "telefoonnummers"],
+      "pijnpunt": "Handwerk aan de balie, gebeurt soms niet als het druk is.",
+      "risico_bij_fout": "laag"
+    },
+    {
+      "id": "P06", "naam": "Google-reviews beantwoorden", "wie": "Joyce",
+      "kanalen": ["Google-bedrijfsprofiel"],
+      "frequentie": "week", "volume": 6, "minuten_per_keer": 6,
+      "aandeel_beantwoord_nu_pct": 40,
+      "gevoelige_gegevens": [],
+      "pijnpunt": "Negatieve reviews blijven soms weken staan zonder reactie.",
+      "risico_bij_fout": "middel"
+    },
+    {
+      "id": "P07", "naam": "Route ophalen en bezorgen plannen", "wie": "Hamid",
+      "kanalen": ["planningsspreadsheet", "papier"],
+      "frequentie": "week", "volume": 2, "minuten_per_keer": 45,
+      "gevoelige_gegevens": ["bedrijfsadressen"],
+      "pijnpunt": "Route op papier; chauffeur belt onderweg vaak terug.",
+      "risico_bij_fout": "laag"
+    },
+    {
+      "id": "P08", "naam": "Rooster en diensten ruilen", "wie": "Joyce",
+      "kanalen": ["groepsapp", "roosterspreadsheet"],
+      "frequentie": "week", "volume": 9, "minuten_per_keer": 14,
+      "gevoelige_gegevens": ["namen medewerkers", "beschikbaarheid"],
+      "pijnpunt": "Ruilverzoeken gaan door elkaar in de groepsapp.",
+      "risico_bij_fout": "laag"
+    },
+    {
+      "id": "P09", "naam": "Social media posten", "wie": "niemand",
+      "kanalen": ["Instagram"],
+      "frequentie": "week", "volume": 0, "minuten_per_keer": 30,
+      "wens": "3 posts per week",
+      "gevoelige_gegevens": [],
+      "pijnpunt": "Er is geen tijd voor.",
+      "risico_bij_fout": "laag"
+    },
+    {
+      "id": "P10", "naam": "Noodgeval (brand in droger, waterlekkage, inbraak)", "wie": "Joyce of Hamid",
+      "kanalen": ["telefoon"],
+      "frequentie": "maand", "volume": 1, "minuten_per_keer": 60,
+      "gevoelige_gegevens": [],
+      "pijnpunt": "Moet altijd direct door een mens worden opgepakt.",
+      "risico_bij_fout": "kritiek",
+      "nooit_automatiseren": true
+    }
+  ]
+}

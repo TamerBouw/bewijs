@@ -1,0 +1,69 @@
+{
+  "fictief": true,
+  "klant": {
+    "naam": "Wasserette Bubbel",
+    "slug": "bubbel"
+  },
+  "agent": {
+    "naam": "bubbel-balie",
+    "model": "claude-haiku-5-5",
+    "instructies_versie": "2026-12-01"
+  },
+  "omgeving": {
+    "supabase_project_ref": "bubbelbalie01",
+    "supabase_organisatie": "Wasserette Bubbel",
+    "regio": "eu-west-2",
+    "anthropic_workspace": "Default Workspace"
+  },
+  "kosten": {
+    "maandlimiet_eur": 400,
+    "dagbudget_eur": 2,
+    "budget_klant_per_maand_eur": 350
+  },
+  "killswitch": {
+    "tabel": "app_settings",
+    "sleutel": "agents_actief"
+  },
+  "logging": {
+    "tabel": "agent_runs"
+  },
+  "evals": {
+    "bestand": "evals/gevallen.jsonl",
+    "min_gevallen": 10,
+    "schema": "elke maandag 06.00",
+    "drempel_pct": 90
+  },
+  "alerts": [
+    {
+      "soort": "kosten",
+      "voorwaarde": "80% van de maandlimiet bereikt",
+      "naar": "beheer@bureauvonk.example"
+    },
+    {
+      "soort": "fouten",
+      "voorwaarde": "meer dan 20% van de runs in 24 uur met status fout",
+      "naar": "beheer@bureauvonk.example"
+    }
+  ],
+  "sla": {
+    "ondersteuning": "werkdagen 09.00-17.00",
+    "reactietijden": [
+      {
+        "prioriteit": 1,
+        "voorbeeld": "agent geeft klanten verkeerde informatie",
+        "eerste_reactie_werkuren": 4,
+        "oplostijd_uren": 4
+      },
+      {
+        "prioriteit": 2,
+        "voorbeeld": "agent staat stil, berichten gaan naar de balie",
+        "eerste_reactie_werkuren": 8
+      },
+      {
+        "prioriteit": 3,
+        "voorbeeld": "wens of kleine aanpassing",
+        "eerste_reactie_werkuren": 40
+      }
+    ]
+  }
+}

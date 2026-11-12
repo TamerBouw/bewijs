@@ -1,0 +1,15 @@
+{
+  "formulier": "contact",
+  "pagina": "https://bureauvonk.example/contact",
+  "ingezonden_op": "2026-10-30T16:48:02+01:00",
+  "velden": {
+    "naam": "Zoë Vermeulen",
+    "bedrijf": "",
+    "email": "zoe.vermeulen@studentmail.example",
+    "telefoon": "06-00000406",
+    "website": "zoeschrijft.example/portfolio",
+    "maandbudget": "Weet ik nog niet",
+    "interesse": ["Content en video"],
+    "bericht": "Hallo! Ik studeer communicatie en zoek vanaf februari 2027 een meewerkstage van 5 maanden, het liefst in copywriting voor advertenties. Mijn portfolio staat op mijn website. Ik vond geen vacaturepagina, daarom via dit formulier. Hebben jullie plek?"
+  }
+}
