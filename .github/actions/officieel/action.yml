@@ -10,10 +10,15 @@ inputs:
 outputs:
   pad:
     description: Map met de officiële bestanden van deze platformversie
-    value: ${{ github.action_path }}/bestanden
+    value: ${{ steps.pad.outputs.pad }}
 runs:
   using: composite
   steps:
+    # github.action_path is leeg in de outputs van een composite action; GITHUB_ACTION_PATH in een stap niet.
+    - name: Pad naar de officiële bestanden
+      id: pad
+      shell: bash
+      run: echo "pad=$GITHUB_ACTION_PATH/bestanden" >> "$GITHUB_OUTPUT"
     - name: Officiële bestanden zetten
       if: ${{ inputs.alleen-pad != 'true' }}
       shell: bash
