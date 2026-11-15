@@ -1,6 +1,6 @@
 {
   "name": "tamer-bouw-opdrachten",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Opdrachten met automatische tests voor de Tamer Bouw-cursus \"Agents aan het werk\"",
   "private": true,
   "type": "module",
@@ -10,7 +10,8 @@
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "cursus-update": "bash scripts/cursus-update.sh"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "1.1.0",

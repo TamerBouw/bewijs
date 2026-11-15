@@ -1,8 +1,8 @@
 {
-  "versie": "1.0.0",
+  "versie": "1.1.0",
   "algoritme": "sha256",
   "toelichting": "Officiële hashes van de testbestanden en de starters. Gemaakt met: npx tsx scripts/manifest.ts --schrijf. Het platform vergelijkt het bewijs met zijn eigen kopie van dit bestand, niet met deze.",
-  "totaal": "ff12b3057afea72fbefd01160fb76c9f5f88a6f543b1cbab077ad641be161bf1",
+  "totaal": "a49c5618edaba4cc15eaddc159215dd3644c7364b4746daefee17434f323a7c8",
   "officieel": {
     ".github/workflows/bewijs.yml": "a5d0431f03ce55d319832c6b0e698329c36a2000d06d2a15a36a393f58b0dd5f",
     "data/README.md": "8e0b2707fe637e5459033add954cb6cbf5009fe1f6e01cf66148107cc0674567",
@@ -67,6 +67,7 @@
     "data/bureau-vonk/pakketten.json": "6948994d07ad9d83ad3f4066e2c6bf99d79c8ffb018591cb536891dc49d0b622",
     "data/bureau-vonk/taken.json": "da8850c76921e4955a559dd680060360b12c34839c405968bfea41234d1c2adf",
     "data/bureau-vonk/team.json": "44300985bb9197a83bf46526e4c7f5c6b7eef108d96d9ff38819cb8826bf10d4",
+    "opdrachten/m00-werkplaats/test/m00-werkplaats.test.ts": "b24195457a2486335fe8f550897d36a6efdbfd4641ea23523af0368142bc8d21",
     "opdrachten/m01-live-agent/test/m01-live-agent.test.ts": "25e67080194d6c6c85ae05789cf01678491743f8e8d2fb173b642e594a671769",
     "opdrachten/m02-lead-intake/test/m02-lead-intake.test.ts": "e04de3496a6298bbe22d0d4cf05053f5e42ba0599af5be88c55c07939bd1b22d",
     "opdrachten/m03-agent-lus/test/m03-agent-lus.test.ts": "875ee65cd7c8a78f968972ee2ef76395c3a1699b8da9e20d4328c32548b77bb9",
@@ -110,8 +111,9 @@
     "opdrachten/m12-oplevercheck/test/pakketten/goed/supabase/migrations/20261201090000_basis.sql": "5c026aaff37e9b3bb15bf1a9340d950d8e6f5b8edafe38ac9d385cc91c74f0c7",
     "opdrachten/m12-oplevercheck/test/pakketten/goed/supabase/migrations/20261201091000_bewaking.sql": "e5d79432b066be3c33fd7470087ad6a22fd1bf79e19f5c7574b452f8e6f9835b",
     "opdrachten/m13-jarvis/test/m13-jarvis.test.ts": "5147416aa5734aec2ef99ad707f9b99896ddb7f05e10777bb2838e54587c637b",
-    "package-lock.json": "76bf385eab25ef460a517a7bee49bbbf6d9087c2b6b61a8b1203acc3fb8e8a58",
-    "package.json": "c65975f605f73ebf2e7794a918cb22408a9a0f1756e80768a3c0907e483c17f6",
+    "package-lock.json": "404beb6ec84ba5b95df15ae553aec9b5711a08874f6c9f5ee9025fcd24687172",
+    "package.json": "f0b1d1b9592565b7b63f827d51d5bf9ac132fbe2e5449bd6b0017d2f575c057b",
+    "scripts/cursus-update.sh": "4fce7a268a64d713e7740f0150e454ee04eb298998a3457d9d0b122549f56453",
     "scripts/manifest.ts": "705bb229b0eff6caf6a8c4eed584b9238c20d77f2eb8e3ee677bb4810578f4a9",
     "scripts/meld-bewijs.sh": "3cced2c796c86367d4c88a1c5dcb54395a147cf7b75a919570dff0f86e1fa1a6",
     "scripts/testbewijs.sh": "3e9be63f24936ef8a286e3793909d22803aeb0a043735872d338c16efedd9c9b",
@@ -124,6 +126,7 @@
     "vitest.config.ts": "e1a88716e90dae997fe09e81e174014bd662a98c37d6bbb1333950ef6990bbe9"
   },
   "starters": {
+    "m00-werkplaats": "95ae6616b7d33ee81cbfa0dac77efbd8d0094a79f9b7a537862fc54ac40321ee",
     "m01-live-agent": "730211ba63151a708cba77475920d70536321b6d0f7d45a0fb17dbab39afad6a",
     "m02-lead-intake": "31149ffd5bdb289d4540743318489b32af3845d0e3c599db04a7f0b39b4d5df8",
     "m03-agent-lus": "099a31c1a324e9c0ea5e03aae113ad6e244a17db54ea527e295f119cb76a9ca8",
